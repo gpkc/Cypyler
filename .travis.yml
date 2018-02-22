@@ -6,10 +6,10 @@ script: python setup.py test
 deploy:
   provider: pypi
   distributions: sdist bdist_wheel
-  user: gpkc
+  user: Estanho
   password:
     secure: TeT9DFPoNwtcjGhiO9RGA+q9XiQIptlN6H9dlcu27OohdFTfZwvefKdhLN+vnpomSFzP1ScA3S7DQxFH7tqJ9b1qu6H56d4hCW06PQE9ILBWCGS3GJHSTUQDRYP924guULehtJ0wYIM2n0BLHQd7Hlr69LkqNJmkIqgE1qp/06NYk/ieZc/Po64XqS5xa2C3daGrY+q1BO1SJxULVv4om08rZz+Yjs5NQWeNdgEt9rxtYdcIxa9DjfFd+F9fFN75HdinGpoW9wu8FERTK3SITjmZYSmvYpAVtvLp89fsvIvQKGc1lwac12OJkiVM9vYhXJHupqpyRn4un1tO8h9MJGTwfQNiNFwQjldZ6LpDhLWT1twNt70CFlABMCd/9GUKejhgMpCcbPht3QJA9LZ67VkUlAXewOOdl0tjnVcHc4VB6FgMIhMPrWWR6FeGAtzJzTSzsj1yUiJBcl86Mfcx0EXKNV8OJPNSllafYx+uksl66knY2FABodoqpIHxjwpYSzlqDfBGwh/2hJ1glCbZwZ2AZF2edPdyHYa9xZz0kUqOhyglK+6tJqmTE27mHFEucoW0MbCayyUHe97h94+Qne3GcOTd8LL9BUdQpLT5nV78kJ6wXuLHbgcXdhuyORtqlQepHxP9fxxPjq2rNRT5MXM4m2Nq0AKdHjQ+RdArYwA=
   on:
     tags: true
-    repo: gpkc/cypyler
+    repo: Estanho/Cypyler
     python: 3.6
