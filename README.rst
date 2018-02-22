@@ -9,10 +9,6 @@ Cypyler
 .. image:: https://img.shields.io/travis/gpkc/cypyler.svg
         :target: https://travis-ci.org/gpkc/cypyler
 
-.. image:: https://readthedocs.org/projects/cypyler/badge/?version=latest
-        :target: https://cypyler.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
 
 .. image:: https://pyup.io/repos/github/gpkc/cypyler/shield.svg
      :target: https://pyup.io/repos/github/gpkc/cypyler/
@@ -24,17 +20,17 @@ A cython compiler for compiling source code in string form.
 
 Example:
 
-```python
-from cypyler import TMPCypyler
+.. code-block:: python
+  from cypyler import TMPCypyler
 
-code = """
-def add(x, y):
-  return x + y
-"""
+  code = """
+  def add(x, y):
+    return x + y
+  """
 
-cp = TMPCypyler()
-built_module = cp.build(code)
-built_module.add(2, 3)
-```
+  cp = TMPCypyler()
+  built_module = cp.build(code)
+  built_module.add(2, 3)
+
 
 * Free software: MIT license
