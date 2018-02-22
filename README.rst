@@ -20,17 +20,18 @@ A cython compiler for compiling source code in string form.
 
 Example:
 
-.. code-block:: python
-  from cypyler import TMPCypyler
+.. code:: python
 
-  code = """
-  def add(x, y):
-    return x + y
-  """
+    from cypyler import TMPCypyler
 
-  cp = TMPCypyler()
-  built_module = cp.build(code)
-  built_module.add(2, 3)
+    code = """
+    def add(x, y):
+        return x + y
+    """
+
+    cp = TMPCypyler()
+    built_module = cp.build(code)
+    built_module.add(2, 3)
 
 
 * Free software: MIT license
