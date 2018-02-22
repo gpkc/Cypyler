@@ -6,14 +6,8 @@ Cypyler
 .. image:: https://img.shields.io/pypi/v/cypyler.svg
         :target: https://pypi.python.org/pypi/cypyler
 
-.. image:: https://img.shields.io/travis/gpkc/cypyler.svg
-        :target: https://travis-ci.org/gpkc/cypyler
-
-
-.. image:: https://pyup.io/repos/github/gpkc/cypyler/shield.svg
-     :target: https://pyup.io/repos/github/gpkc/cypyler/
-     :alt: Updates
-
+.. image:: https://img.shields.io/travis/gpkc/Cypyler.svg
+        :target: https://travis-ci.org/gpkc/Cypyler
 
 
 A cython compiler for compiling source code in string form.
