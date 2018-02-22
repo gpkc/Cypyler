@@ -24,7 +24,8 @@ class Cypyler:
         module_fd, module_path = tempfile.mkstemp(
             prefix='_', suffix=suffix, dir=self.build_dir)
 
-        module_name = module_path.split('/')[-1].strip(suffix)
+        module_filename = os.path.basename(module_path)
+        module_name = os.path.splitext(module_filename)[0]
 
         with os.fdopen(module_fd, 'w') as f:
             f.write(code)
